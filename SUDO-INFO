@@ -1,12 +1,6 @@
 auther: Mishan Goti
 date  : --/--/----
 info-type  : SUDO INFO FILE
-
-
-		
-
-
-
 -------------------------------------------------------------
 HOW TO CREATE VIRTUAL HOST IN UBANTU ?
 	for create vhost
@@ -31,7 +25,6 @@ HOW TO CREATE VIRTUAL HOST IN UBANTU ?
 	3) sudo gedit /opt/lampp/etc/extra/httpd-vhosts.conf
 
 		->copy below code and pest it in ^ this file
-
 			<VirtualHost *:80>
 			  ServerName mishan.laravel.local
 			  ServerAlias www.mishan.laravel.local
@@ -45,13 +38,10 @@ HOW TO CREATE VIRTUAL HOST IN UBANTU ?
 			</VirtualHost>
 
 	4) restart xampp
-
 ----------------------------------------------------Apache2-----------------------------------------------------=
-
 HOW TO STOP APACHE2 SERVER
 -> sudo /etc/init.d/apache2 stop
 ----------------------------------------------------Ubantu-----------------------------------------------------
-
 HOW TO DELETE DIRECTORY AS ROOT
 -> sudo rm -rf /etc/php
 
@@ -65,7 +55,6 @@ How to install .XZ file.
 -> ./configure
 -> make
 -> sudo make install
-
 ----------------------------------------------XAMPP AND PHP ON LINUX---------------------------------------------
 HOW TO UNINSTALL XAMMP 
 -> sudo /opt/lampp/uninstall
@@ -176,21 +165,6 @@ Start Server
 4> make controllers
 5> set up database
 6> create .env and config file
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ##########
 # ERRORS:# 
