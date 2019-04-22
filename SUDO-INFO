@@ -1,0 +1,219 @@
+auther: Mishan Goti
+date  : --/--/----
+info-type  : SUDO INFO FILE
+
+
+		
+
+
+
+-------------------------------------------------------------
+HOW TO CREATE VIRTUAL HOST IN UBANTU ?
+	for create vhost
+	1) sudo gedit /opt/lampp/etc/httpd.conf
+
+			# Virtual hosts
+			Include etc/extra/httpd-vhosts.conf
+
+	2) sudo gedit /etc/hosts
+
+		    127.0.0.1	localhost
+			127.0.0.1	mishan.laravel.local
+
+			#don't touch other existent values
+			# The following lines are desirable for IPv6 capable hosts
+			::1     ip6-localhost ip6-loopback
+			fe00::0 ip6-localnet
+			ff00::0 ip6-mcastprefix
+			ff02::1 ip6-allnodes
+			ff02::2 ip6-allrouters
+
+	3) sudo gedit /opt/lampp/etc/extra/httpd-vhosts.conf
+
+		->copy below code and pest it in ^ this file
+
+			<VirtualHost *:80>
+			  ServerName mishan.laravel.local
+			  ServerAlias www.mishan.laravel.local
+			  DocumentRoot "/opt/lampp/htdocs/Mishan_Laravel/public"
+			  DirectoryIndex index.php
+			  <Directory "/opt/lampp/htdocs/Mishan_Laravel/public">
+				Options All
+				AllowOverride All
+				Require all granted
+			  </Directory>
+			</VirtualHost>
+
+	4) restart xampp
+
+----------------------------------------------------Apache2-----------------------------------------------------=
+
+HOW TO STOP APACHE2 SERVER
+-> sudo /etc/init.d/apache2 stop
+----------------------------------------------------Ubantu-----------------------------------------------------
+
+HOW TO DELETE DIRECTORY AS ROOT
+-> sudo rm -rf /etc/php
+
+HOW TO GIVE PERMISSION TO FOLDER
+-> sudo chmod -R 777 /var/DirectoryName
+
+How to install .XZ file.
+-> go to path
+-> tar -xzf archive-name.tar.gz
+-> cd archive-name	
+-> ./configure
+-> make
+-> sudo make install
+
+----------------------------------------------XAMPP AND PHP ON LINUX---------------------------------------------
+HOW TO UNINSTALL XAMMP 
+-> sudo /opt/lampp/uninstall
+
+HOW TO REMOVE ALL PHP AT ONE TIME
+-> sudo apt-get purge `dpkg -l | grep php| awk '{print $2}' |tr "\n" " "`
+
+HOW TO INSTALL PHP 7.2
+a) add the php repository
+	1. 							   --> apt-get install software-properties-common
+	2. 							   --> add-apt-repository ppa:ondrej/php
+	3. 							   --> apt-get update
+b) install php 
+	1. install php 7.2         	   --> apt-get install php7.2
+	2. check php                   --> php -v
+
+HOW TO INSTALL XAMPP
+a)
+	1. install apache web server--> sudo apt-get install apache2
+	2. start apache web server  --> systemctl start apache2
+	3. stop apache web server   --> systemctl stop apache2
+	4. status of apache web server  --> systemctl status apache2
+b)
+	1. download xampp          -->wget https://www.apachefriends.org/xampp-files/7.2.2/xampp-linux-x64-7.2.2-0-installer.run
+	2. execute permission      -->chmod +x xampp-linux-x64-7.2.2-0-installer.run
+	3. install xampp           -->./xampp-linux-x64-7.2.2-0-installer.run
+	4. start xampp             -->sudo /opt/lampp/xampp start
+	5. stop xampp              -->sudo /opt/lampp/xampp stop
+	6. restart xampp           -->sudo /opt/lampp/xampp restart
+
+HOW TO INSTALL COMPOSER
+a) Installing the Dependencies
+	1. --> sudo apt-get update
+	2. --> sudo apt-get install curl php-cli php-mbstring git unzip
+b) Downloading and Installing Composer
+	1. --> curl -sS https://getcomposer.org/installer -o composer-setup.php
+	2. --> php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+	3. --> composer
+
+HOW TO CHANGE SYMBOLIK LINK
+1. delete exist -> unset php
+2. add new      -> ln -s /opt/bin/php php
+
+HOW TO DISABLE PHP
+-> a2dismod php7.0
+
+HOW TO DISABLE PHP
+-> a2enmod php7.2
+
+ERRORS
+=> #2002 - connection refused phpmyadmin
+	-> https://askubuntu.com/questions/145110/running-xampp-does-not-work
+	-> my.cnf chang port
+	-> change the port number only don't set innodb_force_recovery=1 
+
+
+------------------------------------------------------MONGODB ON LINUX-------------------------------------------
+how to install mongo db on ubantu?
+1) Add Repository 
+	-> sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+	-> echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+	-> sudo apt-get update
+2) Installation	
+	-> sudo apt-get install -y mongodb-org
+3) Start
+	-> sudo systemctl start mongod
+4) Stop
+	-> sudo systemctl Stop mongod
+5) Enable Automatic Start when system start
+	-> sudo systemctl enable mongod
+------------------------------------------------------------LARAVEL-------------------------------------------------
+KEY GENERATE LARAVEL
+=> php artisan key:generate
+
+Start laravel project
+=> php artisan serve
+
+--------------------------------------------------------NODE JS --------------------------------------------------
+HOW TO REMOVE NODE JS.
+-> sudo apt-get remove nodejs
+
+How to install Node js
+1) download letest tar.gz file from node.org
+-> tar -xzf archive-name.tar.gz
+-> cd archive-name
+-> ./configure
+-> make
+-> sudo make install
+
+Install express
+-> npm install -g express
+
+Install express generator
+-> npm install -g express-generator
+
+Create Project
+-> express nodejs_demo
+
+Install dependancy
+-> npm install
+
+Start Server
+-> npm start
+#####################################################################################################################
+1> npm modules
+2> add all extra npm in the app.js
+3> add route 
+4> make controllers
+5> set up database
+6> create .env and config file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########
+# ERRORS:# 
+##########
+
+1) PROBLEM : 	[nodemon] Internal watch failed: ENOSPC: System limit for number of file watchers reached, watch '/opt/lampp/htdocs/				nodejs/project2/controllers'
+-> pkill -f node
+
+
+----------------------------------------------------------GIT HUB-------------------------------------------------
+1) FOR PULL
+	-> git pull origin master
+	-> git clone link
+
+2) FOR PUSH CHANGES
+	-> git add -A
+	-> git commit -m "comment"
+	-> git push origin master
+
+----------------------------------------------------------ANGULER JS-------------------------------------------------
+1) CREATE NEW PROJECT.
+	-> ng new project_name
+
+2) SERVE ANGULER PROJECT
+	-> ng serve
+
