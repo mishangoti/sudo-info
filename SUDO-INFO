@@ -131,6 +131,14 @@ KEY GENERATE LARAVEL
 
 Start laravel project
 => php artisan serve
+-----------------------------------------------------------codeIgniter 4 ---------------------------------------------------
+1) install Codeigniter
+=> composer create-project codeigniter4/appstarter project-root
+
+2) enable inil from php.ini file
+
+3) Start codeigniter project
+=> php spark serve
 
 --------------------------------------------------------NODE JS --------------------------------------------------
 HOW TO REMOVE NODE JS.
