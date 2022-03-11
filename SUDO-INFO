@@ -183,11 +183,17 @@ Start Server
 
 
 ----------------------------------------------------------GIT HUB-------------------------------------------------
-1) FOR PULL
+1) CREATE REPOSITORY
+	-> git init
+	-> git add.
+	-> git commit -m "First Commit"
+	-> git remote add origin <<repository link>
+
+2) FOR PULL
 	-> git pull origin master
 	-> git clone link
 
-2) FOR PUSH CHANGES
+3) FOR PUSH CHANGES
 	-> git add -A
 	-> git commit -m "comment"
 	-> git push origin master
