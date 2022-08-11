@@ -198,4 +198,18 @@ Start Server
 
 2) SERVE ANGULER PROJECT
 	-> ng serve
+	
+	
+	
+----------------------------------------------------------HEROKU -----------------------------------------------------
+deploy NODEJS API / REACT project to heroku
+ Step 1: create git repo
+ => git init
+ => git add .
+ => git commit -m "First commit"
+ Step 2: install heroku cli
+ => npm install -g heroku
+ => heroku login
+ => heroku create app-name
+ => git push heroku main
 
