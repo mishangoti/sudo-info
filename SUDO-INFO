@@ -212,4 +212,4 @@ deploy NODEJS API / REACT project to heroku
  => heroku login
  => heroku create app-name
  => git push heroku main
-
+heroku buildpacks:set https://github.com/mars/create-react-app-buildpack
