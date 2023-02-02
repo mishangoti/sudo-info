@@ -2,7 +2,7 @@
 
 *   [Overview](#Overview)
     *   [Philosophy](#philosophy)
-    *   [Inline HTML](#html)
+    *   [Inline HTML](#Inline HTML)
     *   [Automatic Escaping for Special Characters](#autoescape)
 *   [Block Elements](#block)
     *   [Paragraphs and Line Breaks](#p)
