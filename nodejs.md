@@ -1,6 +1,6 @@
 # Markdown: Syntax
 
-*   [Overview](#overview1)
+*   [Overview1](#overview)
     *   [Philosophy](#philosophy)
     *   [Inline HTML](#html)
     *   [Automatic Escaping for Special Characters](#autoescape)
@@ -26,7 +26,7 @@ can [see the source for it by adding '.text' to the URL](/projects/markdown/synt
 
 ----
 
-## Overview
+## Overview1
 
 ### Philosophy
 
