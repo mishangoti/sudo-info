@@ -31,11 +31,18 @@ can [see the source for it by adding '.text' to the URL](/projects/markdown/synt
 ### What is JAVA and its features.
 Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
 Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995.
+
 Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.
+
 Application:
--   Red
--   Green
--   Blue
+-   Desktop Applications such as acrobat reader, media player, antivirus, etc.
+-Web Applications such as irctc.co.in, javatpoint.com, etc.
+-Enterprise Applications such as banking applications.
+-Mobile
+-Embedded System
+-Smart Card
+-Robotics
+-Games, etc.
 
 
 ### OOPS concepts and features
