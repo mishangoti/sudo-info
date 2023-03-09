@@ -100,13 +100,13 @@ Architecture of Java Applications
 >The smallest building blocks in Java programs are methods (also called functions in other programming languages). We combine related methods in classes, and related classes in packages. This modularity in Java allows us to break down large programs into smaller building blocks that are easier to understand and re-use.
 
 Java Variables
->A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type.
->
->Variable is a name of memory location. There are three types of variables in java: local, instance and static.
->
->There are two types of data types in Java: primitive and non-primitive.
+> >A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type.
+> >
+> >Variable is a name of memory location. There are three types of variables in java: local, instance and static.
+> >
+> >There are two types of data types in Java: primitive and non-primitive.
 
-Variable
+> Variable
 > >A variable is the name of a reserved area allocated in memory. In other words, it is a name of the memory location. It is a combination of "vary + able" which means its value can be changed.
 > >
 > >     int data=50;//Here data is variable 
@@ -141,7 +141,25 @@ Variable
 > > >    }//end of class   
 
 Data Types in Java
-
+> Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+>
+>1.   Primitive data types
+> > The primitive data types include boolean, char, byte, short, int, long, float and double.
+> > 
+> > In Java language, primitive data types are the building blocks of data manipulation. These are the most basic data types available in Java language.
+> > 
+> > There are 8 types of primitive data types:
+> >-    boolean data type | Default value = false | 1 bit 
+> >    Boolean one = false  
+> >-    byte data type | Default value = '\u0000' | 2 byte
+> >-    char data type | Default value = 0 | 1 byte
+> >-    short data type | Default value = 0 | 2 byte
+> >-    int data type | Default value = 0 | 4 byte
+> >-    long data type | Default value = 0L | 8 byte
+> >-    float data type | Default value = 0.0F | 4 byte
+> >-    double data type | Default value = 0.0D | 8 byte
+>2.   Non-primitive data types: 
+> > The non-primitive data types include Classes, Interfaces, and Arrays.
 
 ### Data types and operators
 ### Flow control statements(statements and loops)
