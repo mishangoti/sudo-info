@@ -108,7 +108,7 @@ Java Variables
 
 Variable
 >A variable is the name of a reserved area allocated in memory. In other words, it is a name of the memory location. It is a combination of "vary + able" which means its value can be changed.
->    <int data=50;//Here data is variable > 
+>     int data=50;//Here data is variable 
 >
 >
 >
