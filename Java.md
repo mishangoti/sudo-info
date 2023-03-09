@@ -156,11 +156,23 @@ Data Types in Java
 > >
 > >     byte a = 10, byte b = -20  
 > >-    char data type | Default value = 0 | 1 byte
+> >
+> >     char letterA = 'A'    
 > >-    short data type | Default value = 0 | 2 byte
+> >
+> >     short s = 10000, short r = -5000     
 > >-    int data type | Default value = 0 | 4 byte
+> >
+> >     int a = 100000, int b = -200000 
 > >-    long data type | Default value = 0L | 8 byte
+> >
+> >     long a = 100000L, long b = -200000L  
 > >-    float data type | Default value = 0.0F | 4 byte
+> >
+> >     float f1 = 234.5f  
 > >-    double data type | Default value = 0.0D | 8 byte
+> >
+> >     double d1 = 12.3  
 >2.   Non-primitive data types: 
 > > The non-primitive data types include Classes, Interfaces, and Arrays.
 
