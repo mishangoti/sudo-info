@@ -48,31 +48,50 @@ Types of Java Applications:
 
 There are mainly 4 types of applications that can be created using Java programming:
 
-1.   Standalone Application: Standalone applications are also known as desktop applications or window-based applications. These are traditional software that we need to install on every machine. Examples of standalone application are Media player, antivirus, etc. AWT and Swing are used in Java for creating standalone applications.
-2.   Web Application: An application that runs on the server side and creates a dynamic page is called a web application. Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.
-3.   Enterprise Application: An application that is distributed in nature, such as banking applications, etc. is called an enterprise application. It has advantages like high-level security, load balancing, and clustering. In Java, EJB is used for creating enterprise applications.
-4.   Mobile Application: An application which is created for mobile devices is called a mobile application. Currently, Android and Java ME are used for creating mobile applications.
+1.   **Standalone Application:** Standalone applications are also known as desktop applications or window-based applications. These are traditional software that we need to install on every machine. Examples of standalone application are Media player, antivirus, etc. AWT and Swing are used in Java for creating standalone applications.
+2.   **Web Application:** An application that runs on the server side and creates a dynamic page is called a web application. Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.
+3.   **Enterprise Application:** An application that is distributed in nature, such as banking applications, etc. is called an enterprise application. It has advantages like high-level security, load balancing, and clustering. In Java, EJB is used for creating enterprise applications.
+4.   **Mobile Application:** An application which is created for mobile devices is called a mobile application. Currently, Android and Java ME are used for creating mobile applications.
 
 Java Platforms / Editions: 
 
 There are 4 platforms or editions of Java:
 
-1.   Java SE (Java Standard Edition): It is a Java programming platform. It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc. It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.
-2.   Java EE (Java Enterprise Edition): It is an enterprise platform that is mainly used to develop web and enterprise applications. It is built on top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.
-3.   Java ME (Java Micro Edition): It is a micro platform that is dedicated to mobile applications.
-4.   JavaFX: It is used to develop rich internet applications. It uses a lightweight user interface API.
+1.   **Java SE (Java Standard Edition):** It is a Java programming platform. It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc. It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.
+2.   **Java EE (Java Enterprise Edition):** It is an enterprise platform that is mainly used to develop web and enterprise applications. It is built on top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.
+3.   **Java ME (Java Micro Edition):** It is a micro platform that is dedicated to mobile applications.
+4.   **JavaFX:** It is used to develop rich internet applications. It uses a lightweight user interface API.
 
-### OOPS concepts and features
 ### Basic understanding of IDE, JDK, JVM & JRE.
+What is IDE? (Integrated Development Environment)
+> An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as software editing, building, testing, and packaging in an easy-to-use application. Just as writers use text editors and accountants use spreadsheets, software developers use IDEs to make their job easier.
+
+JVM
+>JVM (Java Virtual Machine) is an abstract machine. It is called a virtual machine because it doesn't physically exist. It is a specification that provides a runtime environment in which Java bytecode can be executed. It can also run those programs which are written in other languages and compiled to Java bytecode.
+>
+>JVMs are available for many hardware and software platforms. JVM, JRE, and JDK are platform dependent because the configuration of each OS is different from each other. However, Java is platform independent. There are three notions of the JVM: specification, implementation, and instance.
+>
+>The JVM performs the following main tasks:
+>
+>1.   Loads code
+>2.   Verifies code
+>3.   Executes code
+>4.   Provides runtime environment
+
+>
+>
+>
+>
 ### Data types and operators
 ### Flow control statements(statements and loops)
-### Collection Frameworks
-### File and exception handling
 ### Variables
 ### Conditional Statement
 ### Looping
 ### Functions
 ### Access Modifiers
+### OOPS concepts and features
+### Collection Frameworks
+### File and exception handling
 ### Cloud Computing
 ### VCS
 ### SQL
