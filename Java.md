@@ -26,29 +26,35 @@ can [see the source for it by adding '.text' to the URL](/projects/markdown/synt
 
 ---- -->
 
-## Overview
+## Overview Questions
 
-### - What is JAVA and its features.
-A paragraph is simply one or more consecutive lines of text, separated
+### What is JAVA and its features.
+Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995.
+Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.
+Application:
+-   Red
+-   Green
+-   Blue
 
 
-### - OOPS concepts and features
-### - Basic understanding of IDE, JDK, JVM & JRE.
-### - Data types and operators
-### - Flow control statements(statements and loops)
-### - Collection Frameworks
-### - File and exception handling
-### - Variables
-### - Conditional Statement
-### - Looping
-### - Functions
-### - Access Modifiers
-### - Cloud Computing
-### - VCS
-### - SQL
-### - Agile
-### - Web frameworks like Spring and Hibernate(basic understanding)
-### - SOME BASIC CODING LOGICS AND SYNTAX
+### OOPS concepts and features
+### Basic understanding of IDE, JDK, JVM & JRE.
+### Data types and operators
+### Flow control statements(statements and loops)
+### Collection Frameworks
+### File and exception handling
+### Variables
+### Conditional Statement
+### Looping
+### Functions
+### Access Modifiers
+### Cloud Computing
+### VCS
+### SQL
+### Agile
+### Web frameworks like Spring and Hibernate(basic understanding)
+### SOME BASIC CODING LOGICS AND SYNTAX
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
