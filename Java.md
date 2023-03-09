@@ -176,6 +176,34 @@ Data Types in Java
 >2.   Non-primitive data types: 
 > > The non-primitive data types include Classes, Interfaces, and Arrays.
 
+Unicode System
+> Unicode is a universal international standard character encoding that is capable of representing most of the world's written languages.
+
+Operators in Java
+> Operator in Java is a symbol that is used to perform operations. For example: +, -, *, / etc.
+>
+> There are many types of operators in Java which are given below:
+>
+>-   Unary Operator,
+> 
+> postfix, prefix
+>  >     public class OperatorExample{  
+>  >        public static void main(String args[]){  
+>  >           int x=10;  
+>  >           System.out.println(x++);//10 (11)  
+>  >           System.out.println(++x);//12  
+>  >           System.out.println(x--);//12 (11)  
+>  >           System.out.println(--x);//10  
+>  >        }
+>  >     }  
+>
+>-   Arithmetic Operator,
+>-   Shift Operator,
+>-   Relational Operator,
+>-   Bitwise Operator,
+>-   Logical Operator,
+>-   Ternary Operator and
+>-   Assignment Operator.
 ### Data types and operators
 ### Flow control statements(statements and loops)
 ### Variables
