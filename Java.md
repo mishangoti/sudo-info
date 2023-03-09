@@ -99,7 +99,7 @@ How Java Code Gets Executed
 Architecture of Java Applications
 >The smallest building blocks in Java programs are methods (also called functions in other programming languages). We combine related methods in classes, and related classes in packages. This modularity in Java allows us to break down large programs into smaller building blocks that are easier to understand and re-use.
 
-### Basics of Java
+### Basics of Java (Variables, Data Types, Type Casting, Unicode, Operators)
 Java Variables
 > >A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type.
 > >
@@ -176,6 +176,26 @@ Data Types in Java
 > >     double d1 = 12.3  
 >2.   Non-primitive data types: 
 > > The non-primitive data types include Classes, Interfaces, and Arrays.
+
+Type Casting
+> In Java, type casting is a method or process that converts a data type into another data type in both ways manually and automatically. The automatic conversion is done by the compiler and manual conversion performed by the programmer.
+> 
+> Type casting
+> > Convert a value from one data type to another data type is known as type casting.
+> Types of Type Casting
+>
+> >1.   Widening Type Casting
+> > Converting a lower data type into a higher one is called widening type casting. It is also known as implicit conversion or casting down. It is done automatically. It is safe because there is no chance to lose data. It takes place when:
+> >
+> > Both data types must be compatible with each other.
+> > The target type must be larger than the source type.
+> > 
+> >     byte -> short -> char -> int -> long -> float -> double  
+> >2.   Narrowing Type Casting
+> >
+> > Converting a higher data type into a lower one is called narrowing type casting. It is also known as explicit conversion or casting up. It is done manually by the programmer. If we do not perform casting then the compiler reports a compile-time error.
+> > 
+> >     double -> float -> long -> int -> char -> short -> byte  
 
 Unicode System
 > Unicode is a universal international standard character encoding that is capable of representing most of the world's written languages.
