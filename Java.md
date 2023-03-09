@@ -28,7 +28,33 @@ can [see the source for it by adding '.text' to the URL](/projects/markdown/synt
 
 ## Overview
 
-### Philosophy
+### - What is JAVA and its features.
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
+
+### - OOPS concepts and features
+### - Basic understanding of IDE, JDK, JVM & JRE.
+### - Data types and operators
+### - Flow control statements(statements and loops)
+### - Collection Frameworks
+### - File and exception handling
+### - Variables
+### - Conditional Statement
+### - Looping
+### - Functions
+### - Access Modifiers
+### - Cloud Computing
+### - VCS
+### - SQL
+### - Agile
+### - Web frameworks like Spring and Hibernate(basic understanding)
+### - SOME BASIC CODING LOGICS AND SYNTAX
 
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 
