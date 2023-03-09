@@ -99,7 +99,19 @@ How Java Code Gets Executed
 Architecture of Java Applications
 >The smallest building blocks in Java programs are methods (also called functions in other programming languages). We combine related methods in classes, and related classes in packages. This modularity in Java allows us to break down large programs into smaller building blocks that are easier to understand and re-use.
 
+Java Variables
+>A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type.
+>
+>Variable is a name of memory location. There are three types of variables in java: local, instance and static.
+>
+>There are two types of data types in Java: primitive and non-primitive.
 
+Variable
+>A variable is the name of a reserved area allocated in memory. In other words, it is a name of the memory location. It is a combination of "vary + able" which means its value can be changed.
+>    <int data=50;//Here data is variable > 
+>
+>
+>
 ### Data types and operators
 ### Flow control statements(statements and loops)
 ### Variables
