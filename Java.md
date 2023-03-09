@@ -150,8 +150,9 @@ Data Types in Java
 > > 
 > > There are 8 types of primitive data types:
 > >-    boolean data type | Default value = false | 1 bit 
-> >    Boolean one = false  
+> >     Boolean one = false  
 > >-    byte data type | Default value = '\u0000' | 2 byte
+> >     byte a = 10, byte b = -20  
 > >-    char data type | Default value = 0 | 1 byte
 > >-    short data type | Default value = 0 | 2 byte
 > >-    int data type | Default value = 0 | 4 byte
