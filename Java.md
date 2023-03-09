@@ -271,11 +271,23 @@ Operators in Java
 > >-   volatile: Java volatile keyword is used to indicate that a variable may change asynchronously.
 > >-   while: Java while keyword is used to start a while loop. This loop iterates a part of the program several times. If the number of iteration is not fixed, it is recommended to use the while loop.
 
-### Data types and operators
-### Flow control statements(statements and loops)
-### Variables
-### Conditional Statement
-### Looping
+### Flow control statements(If-Else, Switch, For Loop, While Loop, Do While Loop, Break, Continue, Comments)
+Java Control Statements | Control Flow in Java
+> Java compiler executes the code from top to bottom. The statements in the code are executed according to the order in which they appear. However, Java provides statements that can be used to control the flow of Java code. Such statements are called control flow statements.
+> Java provides three types of control flow statements.
+> 
+>1.   Decision Making statements
+> >-   if statements
+> >-   switch statement
+>2.   Loop statements
+> >-   do while loop
+> >-   while loop
+> >-   for loop
+> >-   for-each loop
+>3.   Jump statements
+> >-   break statement
+> >-   continue statement
+
 ### Functions
 ### Access Modifiers
 ### OOPS concepts and features
