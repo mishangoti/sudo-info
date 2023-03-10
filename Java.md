@@ -288,6 +288,7 @@ Java Control Statements | Control Flow in Java
 > >-   break statement
 > >-   continue statement
 If-Else
+>
 > The Java if statement is used to test the condition. It checks boolean condition: true or false. There are various types of if statement in Java.
 > 
 >     if(condition){  
@@ -295,8 +296,18 @@ If-Else
 >     }  
 Switch
 >
->
->
+> The Java switch statement executes one statement from multiple conditions. It is like if-else-if ladder statement.
+>     switch(expression){    
+>        case value1:    
+>        //code to be executed;    
+>        break;  //optional  
+>        case value2:    
+>        //code to be executed;    
+>        break;  //optional  
+>        ......    
+>        default:     
+>        code to be executed if all cases are not matched;  
+>     }    
 >
 For Loop
 >
