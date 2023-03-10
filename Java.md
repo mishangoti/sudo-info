@@ -287,6 +287,57 @@ Java Control Statements | Control Flow in Java
 >3.   Jump statements
 > >-   break statement
 > >-   continue statement
+If-Else
+> The Java if statement is used to test the condition. It checks boolean condition: true or false. There are various types of if statement in Java.
+> 
+>     if(condition){  
+>          //code to be executed  
+>     }  
+Switch
+>
+>
+>
+>
+For Loop
+>
+>
+>
+>
+>
+>
+
+While Loop
+>
+>
+>
+>
+
+
+Do While Loop
+>
+>
+>
+>
+
+
+Break 
+>
+>
+>
+>
+
+
+Continue
+>
+>
+>
+>
+
+Comment
+>
+>
+>
+>
 
 ### Functions
 ### Access Modifiers
