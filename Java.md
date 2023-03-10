@@ -297,6 +297,7 @@ If-Else
 Switch
 >
 > The Java switch statement executes one statement from multiple conditions. It is like if-else-if ladder statement.
+> 
 >     switch(expression){    
 >        case value1:    
 >        //code to be executed;    
