@@ -1,0 +1,7 @@
+Terminate Tomcat server
+Step 1: Check all open ports
+        netstat -aon | find /i “listening”
+Step 2: Filter all server by port
+        netstat -aon |find /i “listening” |find “8080”
+Step 3: Kill the server using pid
+        taskkill /F /PID 189
