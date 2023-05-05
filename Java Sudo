@@ -1,7 +1,22 @@
-Terminate Tomcat server
+Terminate Tomcat server on windows
 Step 1: Check all open ports
         netstat -aon | find /i “listening”
 Step 2: Filter all server by port
         netstat -aon |find /i “listening” |find “8080”
 Step 3: Kill the server using pid
         taskkill /F /PID 189
+
+Install Java on Ubuntu
+Step 1: > apt-get install openjdk-11-jre openjdk-11-jdk
+Step 2: > java --version
+
+
+Install Tomcat on Ubuntu
+Step 1 > apt-get install tomcat2
+
+Start tomcat server
+cd /etc/init.d
+systemctl status apache2
+systemctl start apache2
+systemctl stop apache2
+systemctl restart apache2
